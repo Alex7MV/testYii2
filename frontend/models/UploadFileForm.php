@@ -8,8 +8,10 @@
 
 namespace frontend\models;
 
+use Yii;
+use yii\base\Model;
 
-class UploadFileForm
+class UploadFileForm extends Model
 {
     public $file;
 
