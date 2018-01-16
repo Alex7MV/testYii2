@@ -1,0 +1,27 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: aumoz
+ * Date: 15.01.2018
+ * Time: 16:25
+ */
+
+namespace frontend\models;
+
+
+class UploadFileForm
+{
+    public $file;
+
+    /**
+     * @inheritdoc
+     */
+    public function rules()
+    {
+        return [
+            [['file'], 'file', 'extensions' => 'xls, xlsx',
+                'skipOnEmpty' => false]
+        ];
+    }
+
+}
