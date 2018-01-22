@@ -4,6 +4,7 @@ use yii\db\Migration;
 
 /**
  * Создаем таблицу build
+ * См. официальную [документацию по миграциям](https://github.com/yiisoft/yii2/blob/master/docs/guide-ru/db-migrations.md)
  */
 class m180116_184646_build extends Migration
 {
